@@ -1,4 +1,5 @@
-🎓 LearnHub - Modern Learning Management System
+🎓 LearnHub -your skills enchancement
+
 A comprehensive, full-stack learning management system built with React and Node.js, designed to provide an intuitive platform for course creation, management, and learning. Features a modern, responsive design with enhanced user experience and accessibility.
 
 LearnHub React Node.js MongoDB Accessibility
@@ -6,7 +7,9 @@ LearnHub React Node.js MongoDB Accessibility
 ✨ Features
 🎯 For Students
 Course Discovery: Browse and search through available courses with advanced filtering
+
 Course Enrollment: Enroll in courses with secure payment processing
+
 Interactive Learning: Watch video content with progress tracking and section completion
 Personal Dashboard: Clean, intuitive dashboard with enrolled courses overview
 My Courses Section: Dedicated section for enrolled courses with streamlined navigation
@@ -256,6 +259,7 @@ Update documentation for any new features
 This project is licensed under the ISC License - see the LICENSE file for details.
 
 📽️ Video Demo
+https://drive.google.com/file/d/1XHBCeOhdYNv2GA6frBoc2AF58d-z9I3P/view?usp=drivesdk
 
 📄 Documentation
 https://docs.google.com/document/d/1eA3Wz5p_rET_KVb8xrJY86emAdLuERzY/edit?usp=drivesdk&ouid=105814536864642203009&rtpof=true&sd=true
