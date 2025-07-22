@@ -5,7 +5,9 @@ A comprehensive, full-stack learning management system built with React and Node
 LearnHub React Node.js MongoDB Accessibility
 
 ✨ Features
+
 🎯 For Students
+
 Course Discovery: Browse and search through available courses with advanced filtering
 
 Course Enrollment: Enroll in courses with secure payment processing
@@ -131,8 +133,11 @@ CORS - Cross-origin resource sharing configuration
 🚀 Getting Started
 
 Prerequisites
+
 Node.js (v16 or higher)
+
 MongoDB (local or cloud instance)
+
 npm or yarn package manager
 
 Installation
@@ -152,28 +157,35 @@ npm install
 Environment Configuration Create a .env file in the backend directory:
 
 PORT=8000
+
 MONGODB_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret_key
 
 Frontend Setup
 
 cd ../frontend
+
 npm install
+
 Start Development Servers
 
 Backend:
 
 cd backend
+
 npm start
 
 Frontend:
 
 cd frontend
+
 npm run dev
 
 Access the Application
 
 Frontend: http://localhost:5173
+
 Backend API: http://localhost:8000
 
 📁 Project Structure
