@@ -21,34 +21,49 @@ Course Creation: Upload video content and course materials with thumbnail suppor
 Content Management: Organize and structure course content into sections
 Student Analytics Dashboard: Comprehensive analytics for monitoring student progress
 Individual Student Tracking: Monitor each student's progress and engagement
+
 Course Performance Metrics: View completion rates, active students, and trends
 Section-wise Analytics: Identify which course sections students struggle with
 Student Activity Insights: Track last activity, enrollment dates, and completion status
+
 Progress Visualization: Visual charts and progress bars for easy understanding
 Filtering & Search: Search students and filter by completion status
 Course Management: Edit and update course content and details
 
 🔧 For Administrators
 User Management: Manage students, teachers, and admin accounts
+
 Course Moderation: Review and approve course submissions
+
 System Analytics: Comprehensive platform analytics and insights
+
 Announcement System: Broadcast important updates to users
+
 Maintenance Mode: Temporarily disable user registrations
+
 All Courses Management: View and manage all courses in the system
 
 🎨 Enhanced User Experience
 Modern Design System
 Material-UI Components: Professional, consistent design throughout
+
 Responsive Layout: Optimized for desktop, tablet, and mobile devices
+
 Smooth Animations: Hover effects, transitions, and micro-interactions
+
 Color Scheme: Modern blue gradient theme with proper contrast ratios
+
 Typography: Clean, readable fonts (Inter, Poppins, Playfair Display)
 
 Navigation & Accessibility
 Smart Navigation: Context-aware navigation that adapts to user role and current section
+
 Accessibility Features: WCAG compliant with proper ARIA labels and focus management
+
 Keyboard Navigation: Full keyboard accessibility for all interactive elements
+
 Screen Reader Support: Proper semantic HTML and descriptive labels
+
 Focus Management: Clear focus indicators and logical tab order
 
 Dashboard Enhancements
@@ -123,65 +138,124 @@ Frontend: http://localhost:5173
 Backend API: http://localhost:8000
 
 📁 Project Structure
+
 learnhub/
+
 ├── backend/
+
 │   ├── config/
-│   │   └── connect.js              # Database connection
+
+│   │   └── connect.js               # Database connection
 │   ├── controllers/
-│   │   ├── adminController.js      # Admin operations
+
+│   │   ├── adminController.js # Admin operations
+
 │   │   └── userControllers.js      # User operations
+
 │   ├── middlewares/
+
 │   │   ├── authMiddleware.js       # Authentication
+
 │   │   ├── adminAuthMiddleware.js  # Admin authentication
+
 │   │   ├── maintenanceMiddleware.js # Maintenance mode
+
 │   │   └── registrationMiddleware.js # Registration validation
+
 │   ├── routers/
+
 │   │   ├── adminRoutes.js          # Admin API routes
+
 │   │   └── userRoutes.js           # User API routes
+
 │   ├── schemas/
+
 │   │   ├── userModel.js            # User schema
+
 │   │   ├── courseModel.js          # Course schema
+
 │   │   ├── adminModel.js           # Admin schema
+
 │   │   ├── announcementModel.js    # Announcement schema
+
 │   │   ├── coursePaymentModel.js   # Payment schema
+
 │   │   ├── enrolledCourseModel.js  # Enrollment schema
+
 │   │   └── settingsModel.js        # Settings schema
+
 │   ├── uploads/                    # File storage (videos, thumbnails)
+
 │   └── index.js                    # Server entry point
+
 ├── frontend/
+
 │   ├── src/
+
 │   │   ├── components/
+
 │   │   │   ├── admin/              # Admin components
+
 │   │   │   │   ├── AdminDashboard.jsx
+
 │   │   │   │   ├── AdminLogin.jsx
+
 │   │   │   │   ├── Analytics.jsx
+
 │   │   │   │   ├── Announcements.jsx
+
 │   │   │   │   ├── CourseList.jsx
+
 │   │   │   │   ├── Settings.jsx
+
 │   │   │   │   └── UserList.jsx
+
 │   │   │   ├── common/             # Shared components
+
 │   │   │   │   ├── AllCourses.jsx
+
 │   │   │   │   ├── Announcements.jsx
+
 │   │   │   │   ├── Dashboard.jsx
+
 │   │   │   │   ├── Home.jsx
+
 │   │   │   │   ├── Login.jsx
+
 │   │   │   │   ├── NavBar.jsx
+
 │   │   │   │   ├── Register.jsx
+
 │   │   │   │   └── UserHome.jsx
+
 │   │   │   └── user/               # User components
+
 │   │   │       ├── student/
+
 │   │   │       │   ├── CourseContent.jsx
+
 │   │   │       │   ├── EnrolledCourses.jsx
+
 │   │   │       │   └── StudentHome.jsx
+
 │   │   │       └── teacher/
+
 │   │   │           ├── AddCourse.jsx
+
 │   │   │           ├── CourseAnalytics.jsx
+
 │   │   │           └── TeacherHome.jsx
+
 │   │   ├── assets/                 # Static assets
+
 │   │   ├── App.jsx                 # Main app component
+
 │   │   ├── App.css                 # Global styles
+
 │   │   └── main.jsx                # App entry point
+
 │   └── public/                     # Public assets
+
 └── README.md
 
 🔐 Authentication & Authorization
